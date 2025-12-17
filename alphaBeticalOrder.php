@@ -8,7 +8,7 @@
  * 
  * @return string
  */
-function alphaBeticalOrder(string $str) {
+function alphaBeticalOrder(string $str) : string {
     $arr = str_split($str);
     sort($arr);
     return join('', $arr);
